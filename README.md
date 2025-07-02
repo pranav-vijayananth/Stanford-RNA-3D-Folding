@@ -6,6 +6,6 @@ The goal of this project is to predict RNA 3D structures based on sequences and 
 
 To evaluate my model, I will be using the TM-score ("template modeling" score) which ranges from 0.0 to 0.10: 
 
-<pre> TM-score = max (1 / L_ref) * ∑_{i=1}^{L_align} [1 / (1 + (d_i / d_0)^2)] </pre>
+![TM-score formula](https://latex.codecogs.com/png.image?\dpi{120} \text{TM-score} = \max \left( \frac{1}{L_{\text{ref}}} \sum_{i=1}^{L_{\text{align}}} \frac{1}{1 + \left( \frac{d_i}{d_0} \right)^2 } \right))
 
 
